@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.form-container  {
+    border: solid rgb(245, 204, 109);
+    border-radius: 16px;
+    width: 90%;
+    max-width: 640px;
+    margin: 10px auto;
+    height: 90%;
+    min-height: 640px;
+    background-color: rgb(255, 212, 113);
+}
+.form-container:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 9px 0;
+    transition: transform 0.9s;
+}
+h1 {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+.form-group {
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+label {
+    font-family: Arial;
+    font-size: bold;
+    
+}
+input[type="text"] {
+    margin-top: 10px;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding-top: 10px;
+    width: 90%;
+}
+input[type="email"] {
+    font-size: 36px;
+    border-radius: 16px;
+    margin: 6px auto;
+    width: 90%;
+    border: 2px solid white;
+}
+#l1 {
+    display: block;
+    font-size: 30px;
+}
+.form-row {
+    display: flex;
+    margin: 10px auto;
+}
+.radio{
+   display: inline-block;
+   border:2px solid azure;
+   margin: 1% 2%;
+   padding: 6px 10px;
+   border-radius: 16px;
+   background-color: azure;
+   
+}
+button {
+    font-family: sans-serif;
+    padding-left: 40%;
+    padding-right: 40%;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border-radius: 16px;
+    border-top-left-radius: 16px;
+    margin-top: 2%;
+    background-color: azure;
+} 
+#message {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    background-color:azure;
+}  
+#text-site {
+    display: block;
+}
+.form-group:hover {
+    color: darkgreen;
+}
